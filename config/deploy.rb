@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.17.2"
 set :application, 'company_management_service'
-set :repo_url, 'git@github.com:harirordeveloper/company-micro-service.git'
+set :repo_url, 'git@github.com:harirordeveloper/company-micro-serv.git'
 set :branch, :master
 set :deploy_to, '/home/deploy/company_management_service'
 set :pty, true
